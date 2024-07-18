@@ -1,9 +1,3 @@
-.bd-mode-toggle {
-    z-index: 1500;
-}
-.bd-mode-toggle .dropdown-menu .active .bi {
-    display: block !important;
-}
 
 .form-control-dark {
     border-color: var(--bs-gray);
