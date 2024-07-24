@@ -12,11 +12,22 @@
     <script src="src\js\jquery.min.js"></script>
 </head>
   <body>
-    <script>
-      $(function(){
-        $("#header").load("header.html"); 
-      });
-    </script>
+    <header class="p-3 mb-3 border-bottom">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+            <li><a href="tent.html" class="nav-link px-2 link-body-emphasis">Tents Overview</a></li>
+          </ul>
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-primary me-2">Login</button>
+          </div>
+        </div>
+      </div>
+    </header>
     
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="bootstrap" viewBox="0 0 118 94">
